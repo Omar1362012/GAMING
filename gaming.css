@@ -1,0 +1,355 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+*{
+    font-family: arial;
+}
+div.maincontent{
+    height: 680px;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+
+div.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(0,0,0,0.6);
+}
+
+div.navbar a{
+    color: white;
+    margin: -70px
+}
+
+div.navbar a.join{
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid skyblue;
+    background-color: transparent;
+    color: mediumvioletred
+}
+div.details{
+    text-align: center;
+    padding-top: 150px;
+    color: white
+}
+
+div.details button{
+        padding: 10px;
+    border-radius: 10px;
+    border: 2px solid mediumvioletred;
+    background-color: transparent;
+    color: skyblue
+}
+
+div.bg2{
+    background-image: url("gaming background3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 2000px;
+    padding-top: 50px
+}
+
+div.upcoming h1{
+    text-align: center;
+    color: white
+}
+
+div.games{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+    color: white
+}
+div.game{
+    text-align: center
+}
+
+div.game img{
+    width: 120px;
+    height: 120px;
+    border-radius: 120px;
+    background-size: cover; 
+    background-position: center;
+
+    
+}
+
+
+div.maingame{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin: auto;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 50px;
+    border-radius: 20px;
+    margin-top: 50px;
+    line-height: 23px
+}
+
+
+
+div.maingame button{
+            padding: 10px;
+    border-radius: 10px;
+    border: 2px solid mediumvioletred;
+    background-color: transparent;
+    color: skyblue
+}
+
+div.maingame p{
+    padding: 0px 20px 20px 0px
+}
+
+div.maingame img{
+    margin-right: -100px;
+    border-radius: 20px
+}
+div.postscontent h1,div.postscontent p{
+    text-align: center;
+    color: white;
+}
+
+
+div.posts{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+}
+
+div.post{
+    margin: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 8px
+}
+div.post p{
+    font-size: 15px;
+    text-align: left
+}
+div.post p, div.post h5,div.post h6{
+    display: inline-block;
+    margin: 20px 20px
+}
+div.post h3, div.post p, div.post h5{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+div.post1 div.img,div.post2 div.img,div.post3 div.img{
+    background-image: url('post1.jpg');
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px
+}
+div.post2 div.img{
+    background-image: url('post2.jpg');
+
+}
+
+div.post3 div.img{
+    background-image: url('post3.jpg');
+
+}
+
+
+div.testis{
+    display: flex;
+    width: 50%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+div.testi{
+    background-color: black;
+    margin: 20px;
+    text-align: center;
+    color: white;
+    border-radius: 8px
+}
+div.test h1{
+    text-align: center;
+    margin-bottom: 80px;
+    color: white
+}
+
+div.testi1 div.img{
+    background-image: url("boy.png");
+    height:80px
+}
+div.testi2 div.img{
+    background-image: url("girl.png");
+    height:80px
+}
+
+div.testi div.img{
+    width: 100px;
+    background-color: white;
+    height: 100px;
+    margin: auto;
+    border-radius: 100px;
+    margin-top: -50px;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid black;
+}
+
+
+
+
+
+.pricing h2{
+    text-align: center;
+}
+
+
+.prices{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+
+.price{
+    width: 30%;
+    background: mediumvioletred;
+    margin: 8px;
+    height: 320px;
+}
+.price button{
+    border-radius: 10px;
+    border: 2px solid;
+    background-color: transparent;
+    color: skyblue;
+    padding: 0px 50px;
+}
+
+.planprice{
+    background-color: skyblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.joinform{
+    display: flex;
+    justify-content:center;
+    text-align: center;   
+    width: 70%;
+    margin-top: 50px;
+    margin-left: 200px;
+    border: 1px solid black;
+    border-radius: 10px
+}
+
+
+
+.joinform .image{
+    background-image: url("gaming background4.jpg");
+    background-size: cover;
+    background-position: top;
+    height: 450px;  
+    width: 40%;
+    margin-left: -50px;
+    
+}
+
+
+form input,form button{
+    padding: 10px   ;
+    font-size: 16px;
+    border: 2px solid mediumvioletred;
+    border-radius: 5px;
+    display: block;
+    margin-top: 50px;margin: 10px
+}
+
+.form{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    
+    
+}    
+.form .buuton{
+    background-color: blue;
+    color: white;
+    
+    
+}
+
+
+
+
+
+ul{
+    display: none;
+    color: mediumvioletred;
+    
+}
+
+
+li{
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+.left{
+    position: fixed;
+    top: 350px;
+    left: 50px;
+    
+}
+
+
+
+
+
+
+
+.right{
+    position: fixed;
+    top: 350px;
+    right:50px;
+}
+
+
+
+
+
+
+
+
+
+
+
